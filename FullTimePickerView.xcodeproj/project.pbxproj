@@ -13,6 +13,7 @@
 		04CBDC771CB5E98300690F9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CBDC751CB5E98300690F9D /* Main.storyboard */; };
 		04CBDC791CB5E98300690F9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CBDC781CB5E98300690F9D /* Assets.xcassets */; };
 		04CBDC7C1CB5E98300690F9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CBDC7A1CB5E98300690F9D /* LaunchScreen.storyboard */; };
+		04CBDC861CB5E9DD00690F9D /* FullTimePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CBDC851CB5E9DD00690F9D /* FullTimePickerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		04CBDC781CB5E98300690F9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04CBDC7B1CB5E98300690F9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04CBDC7D1CB5E98300690F9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CBDC841CB5E9DD00690F9D /* FullTimePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullTimePickerView.h; sourceTree = "<group>"; };
+		04CBDC851CB5E9DD00690F9D /* FullTimePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullTimePickerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		04CBDC6B1CB5E98300690F9D /* FullTimePickerView */ = {
 			isa = PBXGroup;
 			children = (
+				04CBDC831CB5E99500690F9D /* FullTimePickerView */,
 				04CBDC6F1CB5E98300690F9D /* AppDelegate.h */,
 				04CBDC701CB5E98300690F9D /* AppDelegate.m */,
 				04CBDC721CB5E98300690F9D /* ViewController.h */,
@@ -77,6 +81,15 @@
 				04CBDC6D1CB5E98300690F9D /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04CBDC831CB5E99500690F9D /* FullTimePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				04CBDC841CB5E9DD00690F9D /* FullTimePickerView.h */,
+				04CBDC851CB5E9DD00690F9D /* FullTimePickerView.m */,
+			);
+			name = FullTimePickerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +164,7 @@
 			files = (
 				04CBDC741CB5E98300690F9D /* ViewController.m in Sources */,
 				04CBDC711CB5E98300690F9D /* AppDelegate.m in Sources */,
+				04CBDC861CB5E9DD00690F9D /* FullTimePickerView.m in Sources */,
 				04CBDC6E1CB5E98300690F9D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +276,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FullTimePickerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LH.FullTimePickerView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -273,6 +288,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FullTimePickerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LH.FullTimePickerView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
